@@ -1,4 +1,2 @@
 # mrgeekti
-Todo meu portfólio postado na última versão finalizado em 03/11/2018.
-Front e Back-end.
-Tornado privado.
+Back-end do meu portfólio, sistema de login, cadastro de usuários e de publicação de projetos.
