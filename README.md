@@ -1,2 +1,4 @@
-# gerenciadormrgeekti
-Primeiro sistema de gerenciamento para o meu portfólio em PHP. Sistema de login, criação de usuários e publicação de projetos.
+# mrgeekti
+Todo meu portfólio postado na última versão finalizado em 03/11/2018.
+Front e Back-end.
+Tornado privado.
