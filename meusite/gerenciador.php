@@ -106,7 +106,7 @@
     if (isset($_POST['nomeusuario']) && $admin['admin'] == 1 ) {
         
         $email              = $_POST['emailusuario'];
-        $usuario            = $_POST['nomeusuario']);
+        $usuario            = $_POST['nomeusuario'];
         $senha              = $_POST['senhausuario'];
         
         $date = getdate();

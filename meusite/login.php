@@ -113,6 +113,7 @@
             form {
                 clear: both;
                 width: 100%;
+                margin-top: 30px;
             }
             
             form input {
@@ -227,7 +228,7 @@
         
         <script>
             
-            document.querySelector("section").style.height = window.innerHeight+"px";
+            document.querySelector("section").style.height = (window.innerHeight+30) +"px";
             
             document.querySelector("input[name='usuario']").focus();
             

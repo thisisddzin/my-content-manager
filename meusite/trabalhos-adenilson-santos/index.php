@@ -112,14 +112,14 @@
                         background-position: center center;
                         background-size: cover;" class="workimg">
                         </div>
-                        
-                        <h5><?php echo $linha['nomeproduto'] ?></h5>
-                        <p><span style="color:limegreen">ID:</span> <?php echo $linha['produtoID'] ?></p>
-                        <p><span style="color:limegreen">Tipo:</span> <?php echo $linha['tipodoproduto'] ?></p>
-                        <p><span style="color:limegreen">Descrição: </span> <?php echo $linha['descricaoproduto'] ?></p>
-                        <p><span style="color:limegreen">Tecnologias: </span><?php echo $linha['tecnologiasproduto'] ?></p>
-                        <p><span style="color:limegreen">Responsivo?</span> <?php echo $linha['responsivoproduto'] ?></p>
-                        
+                        <div class="infos">
+                            <h5><?php echo $linha['nomeproduto'] ?></h5>
+                            <p><span style="color:dodgerblue">ID:</span> <?php echo $linha['produtoID'] ?></p>
+                            <p><span style="color:dodgerblue">Tipo:</span> <?php echo $linha['tipodoproduto'] ?></p>
+                            <p><span style="color:dodgerblue">Descrição: </span> <?php echo $linha['descricaoproduto'] ?></p>
+                            <p><span style="color:dodgerblue">Tecnologias: </span><?php echo $linha['tecnologiasproduto'] ?></p>
+                            <p><span style="color:dodgerblue">Responsivo?</span> <?php echo $linha['responsivoproduto'] ?></p>
+                        </div>
                         <button>Visualizar</button>
                     </div>
                     <?php
